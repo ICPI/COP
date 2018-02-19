@@ -12,7 +12,7 @@
 #load FV PSNU dataset v3.2
 df_mer <- read_rds(Sys.glob("~/ICPI/Data/ICPI_FactView_PSNU_2*.Rds"))
 
-#filter to just HTS and aggregate
+#filter to just HTS and aggregate FY2017 APR
   df_hts <- df_mer %>% 
     filter(indicator %in% c("HTS_TST"), 
            standardizeddisaggregate %in% c("Modality/AgeAboveTen/Sex/Result", "Modality/AgeLessThanTen/Result", "PMTCT ANC/Age/Result", "VMMC/Age/Result")) %>% 
