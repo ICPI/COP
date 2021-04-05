@@ -1,4 +1,4 @@
-# COP18
+# COP
 Regional Planning Meetings and COP Support
 
 Organizational materials for ICPI's support of the COP and Regional Planning Meetings
